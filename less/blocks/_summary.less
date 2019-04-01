@@ -1,0 +1,77 @@
+.wrapper{
+	position: relative;
+	border-bottom: 1px solid #e9eff3;;
+	@media(min-width: 1200px){
+		padding-bottom: 80px;
+		&:before{
+			content: '';
+			background: url(../img/laptop.png) no-repeat;	
+			width: 324px;
+			height: 468px;
+			position: absolute;
+			right: 0;
+			top: 130px;
+		}
+	}
+}
+#resume{
+	padding-bottom: 35px;
+	
+	@media(min-width: 768px){
+		padding-bottom: 55px;
+	}
+	@media(min-width: 1200px){
+		padding-bottom: 80px;
+	}
+}
+.user-avatar--big{
+	width: 110px;
+	height:110px;
+	background: url(../img/small-avatar.jpg) no-repeat center;
+	margin-top: 0;
+	@media(min-width: 992px){
+		width: 205px;
+		height: 205px;
+		background: url(../img/big-avatar.jpg) no-repeat center;
+	}
+}
+.exp-worsk{
+	margin-bottom: 30px;
+	@media(min-width: 768px){
+		margin-bottom: 0;
+	}
+}
+.about{
+	margin: 25px 0 40px 0;
+	@media(min-width: 768px){
+		margin: 30px 0 35px 0;
+	}
+	.about__name{
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.about__age{
+		margin: 8px 0px 12px 0px;
+	}
+}
+.exp-worsk__title,.education__title{
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 700;
+	color: #010101;
+	margin-bottom: 20px;
+}
+.exp-worsk-block,.education-block{
+	margin-bottom: 20px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+	.exp-worsk-block__title,.education-block__title{
+		font-size: 14px;
+		line-height: 26px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #0052c2;
+		font-weight: bold;
+	}
+}
